@@ -1,0 +1,31 @@
+.flashes-container {
+  position: fixed;
+  right: 20px;
+  top: 100px;
+}
+
+.flashes-flash {
+  background: rgba(20, 20, 20, .8);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, .8);
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  width: 350px;
+}
+
+.flashes-flash--error {
+  background: rgba(198, 8, 21, .8);
+  border: 1px solid rgba(171, 19, 19, .8);
+}
+
+.flashes-flash--success {
+  background: rgba(95, 179, 37, .8);
+  border: 1px solid rgba(14, 132, 30, .8);
+}
+
+.flashes-flash--info,
+.flashes-flash--notice {
+  background: rgba(40, 161, 255, .8);
+  border: 1px solid rgba(16, 95, 109, .8);
+}
