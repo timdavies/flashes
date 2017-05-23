@@ -2,6 +2,10 @@ window.Flashes = {
   create: function (type, message) {
     var flash = this.private.buildHtml(type, message);
     this.private.container().append(flash);
+
+    setTimeout(function () {
+      $(flash).fadeOut();
+    }, 5000);
   },
 
   private: {
